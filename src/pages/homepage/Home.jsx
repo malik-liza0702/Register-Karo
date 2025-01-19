@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import Banner from "../../components/banner/banner";
-import logo from "../../assets/Group 1261153022.png";
+import Banner from "../../components/banner/Banner.jsx";
+
 import oracle from "../../assets/Group.png";
 import morpheus from "../../assets/Group (1).png";
 import samsung from "../../assets/Vector (1).png";
@@ -30,7 +30,7 @@ const Home = () => {
     <>
       <div className="container">
         {/* header */}
-        <div className="blue-header"></div>
+        {/* <div className="blue-header"></div> */}
         {/* Navbar Component */}
         <Navbar></Navbar>
         
