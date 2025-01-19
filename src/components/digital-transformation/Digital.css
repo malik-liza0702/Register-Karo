@@ -1,0 +1,120 @@
+.digital-container {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter", serif;
+  }
+  
+  .digital-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .digital-heading p {
+    color: #eb8d15;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    font-weight: 400;
+  }
+  
+  .digital-heading h2 {
+    color: #3c2109;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+  }
+  
+  .middle-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .middle-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0.5rem;
+    overflow: hidden;
+   
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-date,
+  .card-description,
+  .card-keywords,
+  .card-title {
+    margin: 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .card-date p {
+    color: #667085;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  
+  .card-title h2 {
+    font-size: 1.3rem;
+    color: #1a1a1a;
+  }
+  
+  .card-description p {
+    color: #667085;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  
+  .card-keywords span {
+    color: #6941c6;
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0.5rem;
+  }
+  
+  .digital-low {
+    margin-top: 2rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .digital-container {
+      padding: 2rem;
+    }
+  
+    .middle-card {
+      max-width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
